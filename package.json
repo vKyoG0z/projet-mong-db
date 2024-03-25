@@ -5,6 +5,12 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "mongodb": "^6.5.0",
+    "morgan": "^1.10.0"
   }
 }
