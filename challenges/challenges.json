@@ -1,21 +1,62 @@
 [
     {
-      "title": "Réduire sa consommation d'eau",
-      "description": "Prenez des douches plus courtes et fermez le robinet en vous brossant les dents.",
-      "difficulty": "Facile",
-      "category": "Eau"
-    },
-    {
-      "title": "Utiliser des sacs réutilisables",
-      "description": "Apportez des sacs réutilisables lorsque vous faites vos courses au lieu d'utiliser des sacs en plastique.",
+      "title": "Composter les déchets alimentaires",
+      "description": "Démarrez un compost pour recycler les déchets alimentaires comme les épluchures de fruits et de légumes.",
       "difficulty": "Moyen",
       "category": "Déchets"
     },
     {
-      "title": "Éteindre les lumières inutiles",
-      "description": "Éteignez les lumières lorsque vous quittez une pièce pour économiser de l'énergie.",
+      "title": "Utiliser les transports en commun",
+      "description": "Optez pour les transports en commun au lieu de conduire seul pour réduire les émissions de carbone.",
+      "difficulty": "Difficile",
+      "category": "Transport"
+    },
+    {
+      "title": "Acheter des produits locaux",
+      "description": "Achetez des produits locaux et de saison pour réduire l'empreinte carbone associée au transport des aliments.",
+      "difficulty": "Facile",
+      "category": "Consommation"
+    },
+    {
+      "title": "Installer des ampoules LED",
+      "description": "Remplacez les ampoules traditionnelles par des ampoules LED pour réduire la consommation d'énergie.",
       "difficulty": "Facile",
       "category": "Énergie"
+    },
+    {
+      "title": "Éviter les produits jetables",
+      "description": "Évitez les produits jetables comme les assiettes en plastique et optez pour des alternatives réutilisables.",
+      "difficulty": "Moyen",
+      "category": "Déchets"
+    },
+    {
+      "title": "Planter un arbre",
+      "description": "Participez à des initiatives de reboisement ou plantez un arbre dans votre jardin pour lutter contre le changement climatique.",
+      "difficulty": "Moyen",
+      "category": "Nature"
+    },
+    {
+      "title": "Utiliser des bouteilles d'eau réutilisables",
+      "description": "Utilisez des bouteilles d'eau réutilisables au lieu de bouteilles en plastique à usage unique.",
+      "difficulty": "Facile",
+      "category": "Déchets"
+    },
+    {
+      "title": "Réduire la consommation de viande",
+      "description": "Diminuez la consommation de viande en optant pour des repas végétariens ou végétaliens plus souvent.",
+      "difficulty": "Moyen",
+      "category": "Alimentation"
+    },
+    {
+      "title": "Installer des panneaux solaires",
+      "description": "Investissez dans des panneaux solaires pour produire votre propre électricité à partir de sources renouvelables.",
+      "difficulty": "Difficile",
+      "category": "Énergie"
+    },
+    {
+      "title": "Participer à des nettoyages de plage",
+      "description": "Rejoignez des initiatives de nettoyage des plages pour aider à préserver les écosystèmes marins.",
+      "difficulty": "Moyen",
+      "category": "Nature"
     }
-  ]
-  
+]

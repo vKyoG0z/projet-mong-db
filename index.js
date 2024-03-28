@@ -1,7 +1,7 @@
 const express = require('express');
 const { resolve } = require('path');
 const connectToMongoDB = require('./connexion');
-const routes = require('./route'); // Assurez-vous que le chemin est correct
+const routes = require('./routes'); // Assurez-vous que le chemin est correct
 
 const app = express();
 const port = 3010;
