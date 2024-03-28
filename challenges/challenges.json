@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Réduire sa consommation d'eau",
+      "description": "Prenez des douches plus courtes et fermez le robinet en vous brossant les dents.",
+      "difficulty": "Facile",
+      "category": "Eau"
+    },
+    {
+      "title": "Utiliser des sacs réutilisables",
+      "description": "Apportez des sacs réutilisables lorsque vous faites vos courses au lieu d'utiliser des sacs en plastique.",
+      "difficulty": "Moyen",
+      "category": "Déchets"
+    },
+    {
+      "title": "Éteindre les lumières inutiles",
+      "description": "Éteignez les lumières lorsque vous quittez une pièce pour économiser de l'énergie.",
+      "difficulty": "Facile",
+      "category": "Énergie"
+    }
+  ]
+  
