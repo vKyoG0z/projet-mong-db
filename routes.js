@@ -7,7 +7,7 @@ const verifyToken = require('./authentification'); // Import du middleware d'aut
 
 // Route pour récupérer plusieurs défis aléatoires
 router.get('/random-challenge', (req, res) => {
-  let numberOfChallenges = parseInt(req.query.limit) || 1;
+  let numberOfChallenges = parseInt(req.query.limit) || 5; // Récupère le paramètre 'limit' de la requête, ou 5 par défaut
 
   numberOfChallenges = Math.min(numberOfChallenges, 100); // Limiter à 100 défis par requête
 

@@ -1,13 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Hello Express!</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <h1>Hello Express!</h1>
-    <p>Showing <code>pages/index.html</code></p>
-  </body>
+<html lang="fr">
+<head>
+  <title>Hello Express!</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<h1>Affichage de Défis : </h1>
+<p>Showing <code>pages/index.html</code></p>
+
+<div id="challenge-container"></div>
+
+<script>
+  // Fonction pour récupérer et afficher les défis aléatoires
+  async function fetchRandomChallenges() {
+    const response = await fetch('/random-challenge');
+    const data = await response.json();
+
+    const challengeContainer = document.getElementById('challenge-container');
+    challengeContainer.innerHTML = ''; // Efface le contenu précédent
+
+    data.forEach(challenge => {
+      const challengeElement = document.createElement('div');
+      challengeElement.classList.add('challenge');
+
+      const titleElement = document.createElement('h3');
+      titleElement.textContent = challenge.title;
+      challengeElement.appendChild(titleElement);
+
+      const descriptionElement = document.createElement('p');
+      descriptionElement.textContent = challenge.description;
+      challengeElement.appendChild(descriptionElement);
+
+      const difficultyElement = document.createElement('p');
+      difficultyElement.textContent = 'Difficulté: ' + challenge.difficulty;
+      challengeElement.appendChild(difficultyElement);
+
+      const categoryElement = document.createElement('p');
+      categoryElement.textContent = 'Catégorie: ' + challenge.category;
+      challengeElement.appendChild(categoryElement);
+
+      challengeContainer.appendChild(challengeElement);
+    });
+  }
+
+  // Appel de la fonction pour récupérer et afficher les défis aléatoires au chargement de la page
+  fetchRandomChallenges();
+</script>
+</body>
 </html>
